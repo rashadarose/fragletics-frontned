@@ -1,0 +1,41 @@
+.header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px 0;
+  border-bottom: 2px solid #333;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: #1a1a1a;
+}

@@ -1,0 +1,148 @@
+.cart-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cart-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+  font-size: 16px;
+}
+
+.error {
+  background-color: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 20px;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.item-info h3 {
+  margin: 0 0 4px;
+  font-size: 16px;
+}
+
+.item-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.category {
+  text-transform: uppercase;
+  color: #999;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.item-quantity {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.item-quantity button {
+  padding: 4px 8px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  background: white;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item-quantity button:hover {
+  background: #f5f5f5;
+}
+
+.item-quantity input {
+  width: 50px;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid #ddd;
+}
+
+.item-total {
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 80px;
+}
+
+.remove-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+  background: #fee;
+  color: #c33;
+  border: 1px solid #ddd;
+}
+
+.remove-btn:hover {
+  background: #fdd;
+}
+
+.cart-summary {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 350px;
+  margin-left: auto;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.summary-row.total {
+  border-top: 2px solid #eee;
+  padding-top: 12px;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.checkout-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
