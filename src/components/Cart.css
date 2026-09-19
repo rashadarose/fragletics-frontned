@@ -59,6 +59,12 @@
   color: #999;
 }
 
+.size {
+  color: #3f5f81;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
 .price {
   font-weight: bold;
   margin-top: 4px;

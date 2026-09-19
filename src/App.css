@@ -6,4 +6,18 @@
 
 main {
   flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.status-banner {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #f4f0e8;
+  color: #3f3629;
+  border: 1px solid #e0d3bf;
+  font-size: 14px;
 }

@@ -1,0 +1,129 @@
+.site-footer {
+  margin-top: 56px;
+  color: #ecf5ff;
+  background: linear-gradient(135deg, #07192b 0%, #0b2642 52%, #12365f 100%);
+}
+
+.footer-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 24px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 26px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.12);
+  margin-bottom: 10px;
+}
+
+.footer-grid h5,
+.footer-grid h6,
+.footer-social h6 {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.footer-grid p {
+  margin: 0;
+  color: rgba(236, 245, 255, 0.85);
+  line-height: 1.5;
+}
+
+.footer-grid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.footer-grid li,
+.footer-grid a,
+.footer-grid button {
+  color: rgba(236, 245, 255, 0.9);
+  font-size: 14px;
+}
+
+.footer-grid button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.footer-grid a,
+.footer-grid button {
+  text-decoration: none;
+}
+
+.footer-grid a:hover,
+.footer-grid button:hover {
+  color: #ffffff;
+}
+
+.footer-social {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  font-size: 13px;
+  color: #e7f2ff;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  padding: 6px 10px;
+}
+
+.social-links a:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  font-size: 13px;
+  color: rgba(236, 245, 255, 0.82);
+}
+
+@media (max-width: 900px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-social {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
